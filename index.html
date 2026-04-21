@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Premium unisex salon offering luxury grooming, haircuts, facials, skin care, and beauty services for men and women. Book your appointment today.">
+  <meta name="keywords" content="salon, unisex salon, haircut, grooming, beauty, spa, facial, bridal makeup">
+  <title>Luxe Salon — Premium Unisex Salon &amp; Beauty Studio</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ====== PRELOADER ====== -->
+  <div id="preloader">
+    <div class="preloader-content">
+      <div class="preloader-logo">Luxe<span>Salon</span></div>
+      <div class="preloader-bar"></div>
+    </div>
+  </div>
+
+  <!-- ====== PARTICLES ====== -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- ====== NAVBAR ====== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="nav-logo">Luxe<span>Salon</span></a>
+      <div class="nav-links" id="navLinks">
+        <a href="#hero" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#booking" class="nav-book-btn">Book Now</a>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile nav overlay -->
+  <div class="nav-overlay" id="navOverlay"></div>
+
+  <!-- ====== HERO ====== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1920&q=80" alt="Luxury Salon Interior">
+    </div>
+    <div class="hero-overlay"></div>
+
+    <!-- Floating cards -->
+    <div class="hero-float-element">
+      <div class="float-card">
+        <div class="icon-circle"><i class="fas fa-award"></i></div>
+        <div class="info">
+          <h4>Award Winning</h4>
+          <p>Best Salon 2025</p>
+        </div>
+      </div>
+    </div>
+    <div class="hero-float-element">
+      <div class="float-card">
+        <div class="icon-circle"><i class="fas fa-star"></i></div>
+        <div class="info">
+          <h4>5-Star Rated</h4>
+          <p>500+ Reviews</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <i class="fas fa-sparkles"></i>
+          Premium Unisex Salon
+        </div>
+        <h1>Elevate Your Style. <span>Redefine Your Confidence.</span></h1>
+        <p class="hero-text">
+          Experience luxury grooming and beauty services designed for both men and women.
+          From precision haircuts to relaxing spa treatments — we bring out the best version of you.
+        </p>
+        <div class="hero-buttons">
+          <a href="#booking" class="btn-primary" id="hero-cta-book">
+            <i class="fas fa-calendar-check"></i> Book Appointment
+          </a>
+          <a href="#services" class="btn-outline" id="hero-cta-explore">
+            <i class="fas fa-scissors"></i> Explore Services
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll">
+      <div class="scroll-mouse"></div>
+      <span>Scroll Down</span>
+    </div>
+  </section>
+
+  <!-- ====== STATS BAR ====== -->
+  <section class="stats-bar">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item reveal">
+          <div class="stat-number" data-target="10">0</div>
+          <div class="stat-label">Years Experience</div>
+        </div>
+        <div class="stat-item reveal delay-1">
+          <div class="stat-number" data-target="15000">0</div>
+          <div class="stat-label">Happy Clients</div>
+        </div>
+        <div class="stat-item reveal delay-2">
+          <div class="stat-number" data-target="25">0</div>
+          <div class="stat-label">Expert Stylists</div>
+        </div>
+        <div class="stat-item reveal delay-3">
+          <div class="stat-number" data-target="50">0</div>
+          <div class="stat-label">Services Offered</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== ABOUT ====== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-wrapper reveal-left">
+          <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&q=80" alt="Salon Team at work">
+          </div>
+          <div class="about-experience-badge">
+            <div class="number">10+</div>
+            <div class="text">Years</div>
+          </div>
+        </div>
+
+        <div class="about-content reveal-right">
+          <div class="section-badge"><i class="fas fa-gem"></i> About Us</div>
+          <h2 class="section-title">Where Style Meets <span>Expertise</span></h2>
+          <div class="decorative-line"></div>
+          <p class="section-subtitle">
+            At our salon, style meets expertise. We are a modern unisex salon offering a wide range of
+            hair, skin, and grooming services tailored for today's lifestyle. Our team of skilled
+            professionals ensures every client receives personalized care using premium products
+            and the latest techniques.
+          </p>
+
+          <div class="about-features">
+            <div class="about-feature">
+              <div class="feature-icon"><i class="fas fa-spa"></i></div>
+              <div>
+                <h4>Premium Experience</h4>
+                <p>Luxury care with the finest products and techniques.</p>
+              </div>
+            </div>
+            <div class="about-feature">
+              <div class="feature-icon"><i class="fas fa-user-tie"></i></div>
+              <div>
+                <h4>Skilled Professionals</h4>
+                <p>Certified stylists with years of experience.</p>
+              </div>
+            </div>
+            <div class="about-feature">
+              <div class="feature-icon"><i class="fas fa-heart"></i></div>
+              <div>
+                <h4>Personalized Care</h4>
+                <p>Every service is tailored to your unique needs.</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="#services" class="btn-primary" id="about-cta">
+            <i class="fas fa-arrow-right"></i> Our Services
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SERVICES ====== -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-badge"><i class="fas fa-scissors"></i> What We Offer</div>
+        <h2 class="section-title">Our Premium <span>Services</span></h2>
+        <div class="decorative-line"></div>
+        <p class="section-subtitle">
+          From precision haircuts to relaxing spa treatments, we offer a comprehensive range
+          of services designed to bring out the best in you.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Hair Services -->
+        <div class="service-card reveal delay-1">
+          <div class="service-card-image">
+            <img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=600&q=80" alt="Hair Services">
+            <div class="service-icon"><i class="fas fa-cut"></i></div>
+          </div>
+          <div class="service-card-body">
+            <h3>Hair Services</h3>
+            <ul class="service-list">
+              <li><i class="fas fa-check-circle"></i> Haircuts & Styling</li>
+              <li><i class="fas fa-check-circle"></i> Hair Coloring & Highlights</li>
+              <li><i class="fas fa-check-circle"></i> Hair Spa & Treatments</li>
+              <li><i class="fas fa-check-circle"></i> Keratin & Smoothening</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Skin & Beauty -->
+        <div class="service-card reveal delay-2">
+          <div class="service-card-image">
+            <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600&q=80" alt="Skin & Beauty Services">
+            <div class="service-icon"><i class="fas fa-spa"></i></div>
+          </div>
+          <div class="service-card-body">
+            <h3>Skin & Beauty</h3>
+            <ul class="service-list">
+              <li><i class="fas fa-check-circle"></i> Facials & Cleanups</li>
+              <li><i class="fas fa-check-circle"></i> Detan & Skin Treatments</li>
+              <li><i class="fas fa-check-circle"></i> Makeup (Party / Bridal)</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Grooming -->
+        <div class="service-card reveal delay-3">
+          <div class="service-card-image">
+            <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=600&q=80" alt="Grooming Services">
+            <div class="service-icon"><i class="fas fa-user-check"></i></div>
+          </div>
+          <div class="service-card-body">
+            <h3>Grooming (Men & Women)</h3>
+            <ul class="service-list">
+              <li><i class="fas fa-check-circle"></i> Beard Styling</li>
+              <li><i class="fas fa-check-circle"></i> Waxing & Threading</li>
+              <li><i class="fas fa-check-circle"></i> Manicure & Pedicure</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== WHY CHOOSE US ====== -->
+  <section class="why-us" id="why-us">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-badge"><i class="fas fa-crown"></i> Why Choose Us</div>
+        <h2 class="section-title">The <span>Luxe</span> Difference</h2>
+        <div class="decorative-line"></div>
+        <p class="section-subtitle">
+          We don't just style — we create experiences. Here's what sets us apart.
+        </p>
+      </div>
+
+      <div class="why-us-grid">
+        <div class="why-card reveal delay-1">
+          <div class="icon-wrapper"><i class="fas fa-user-tie"></i></div>
+          <h4>Expert Stylists</h4>
+          <p>Certified professionals with years of industry experience.</p>
+        </div>
+        <div class="why-card reveal delay-2">
+          <div class="icon-wrapper"><i class="fas fa-gem"></i></div>
+          <h4>Premium Products</h4>
+          <p>Only the finest salon-grade products for your care.</p>
+        </div>
+        <div class="why-card reveal delay-3">
+          <div class="icon-wrapper"><i class="fas fa-shield-alt"></i></div>
+          <h4>Hygienic Space</h4>
+          <p>Clean, comfortable, and fully sanitized environment.</p>
+        </div>
+        <div class="why-card reveal delay-4">
+          <div class="icon-wrapper"><i class="fas fa-tags"></i></div>
+          <h4>Affordable Luxury</h4>
+          <p>Premium services at prices that won't break the bank.</p>
+        </div>
+        <div class="why-card reveal delay-5">
+          <div class="icon-wrapper"><i class="fas fa-comments"></i></div>
+          <h4>Personalized Care</h4>
+          <p>Tailored consultations for your unique style goals.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== GALLERY ====== -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-badge"><i class="fas fa-camera"></i> Our Work</div>
+        <h2 class="section-title">Style <span>Gallery</span></h2>
+        <div class="decorative-line"></div>
+        <p class="section-subtitle">
+          A glimpse into our finest transformations, styles, and salon atmosphere.
+        </p>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item reveal-scale delay-1">
+          <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?w=800&q=80" alt="Hair Transformation">
+          <div class="gallery-overlay"><span>Hair Transformation</span></div>
+        </div>
+        <div class="gallery-item reveal-scale delay-2">
+          <img src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?w=600&q=80" alt="Beard Styling">
+          <div class="gallery-overlay"><span>Beard Styling</span></div>
+        </div>
+        <div class="gallery-item reveal-scale delay-3">
+          <img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=600&q=80" alt="Bridal Makeup">
+          <div class="gallery-overlay"><span>Bridal Makeup</span></div>
+        </div>
+        <div class="gallery-item reveal-scale delay-1">
+          <img src="https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?w=600&q=80" alt="Nail Art">
+          <div class="gallery-overlay"><span>Nail Art</span></div>
+        </div>
+        <div class="gallery-item reveal-scale delay-2">
+          <img src="https://images.unsplash.com/photo-1521590832167-7228f5e2d6f0?w=600&q=80" alt="Salon Interior">
+          <div class="gallery-overlay"><span>Our Space</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== TESTIMONIALS ====== -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-badge"><i class="fas fa-quote-right"></i> Testimonials</div>
+        <h2 class="section-title">What Our Clients <span>Say</span></h2>
+        <div class="decorative-line"></div>
+        <p class="section-subtitle">
+          Don't just take our word for it — hear from our happy clients.
+        </p>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal delay-1">
+          <div class="quote-icon">"</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>"Absolutely loved the service! The staff is very professional and friendly.
+          I got a complete hair transformation and couldn't be happier with the results."</p>
+          <div class="testimonial-author">
+            <div class="avatar">P</div>
+            <div class="author-info">
+              <h5>Priya Sharma</h5>
+              <span>Happy Client</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal delay-2">
+          <div class="quote-icon">"</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>"Best salon experience I've had. The ambiance is top-notch and the
+          stylists really know their craft. Highly recommended for everyone!"</p>
+          <div class="testimonial-author">
+            <div class="avatar">R</div>
+            <div class="author-info">
+              <h5>Rahul Verma</h5>
+              <span>Regular Customer</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal delay-3">
+          <div class="quote-icon">"</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>"Got my bridal makeup done here and it was absolutely stunning!
+          Every detail was perfect. Thank you for making my day special."</p>
+          <div class="testimonial-author">
+            <div class="avatar">A</div>
+            <div class="author-info">
+              <h5>Ananya Patel</h5>
+              <span>Bridal Client</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== BOOKING ====== -->
+  <section class="booking" id="booking">
+    <div class="container">
+      <div class="booking-wrapper reveal">
+        <div class="booking-content">
+          <div class="section-badge"><i class="fas fa-calendar-alt"></i> Book Appointment</div>
+          <h2 class="section-title">Ready For Your <span>Next Look?</span></h2>
+          <div class="decorative-line"></div>
+          <p class="section-subtitle">
+            Book your appointment now and let us take care of the rest.
+            Walk in with expectations, walk out with confidence.
+          </p>
+
+          <div class="booking-info">
+            <div class="booking-info-item">
+              <div class="info-icon"><i class="fas fa-phone-alt"></i></div>
+              <div>
+                <h4>Call / WhatsApp</h4>
+                <p>+91 XXXXX XXXXX</p>
+              </div>
+            </div>
+            <div class="booking-info-item">
+              <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <h4>Visit Us</h4>
+                <p>Your Salon Address, City</p>
+              </div>
+            </div>
+            <div class="booking-info-item">
+              <div class="info-icon"><i class="fas fa-clock"></i></div>
+              <div>
+                <h4>Working Hours</h4>
+                <p>Mon - Sun: 10:00 AM - 9:00 PM</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="booking-form">
+          <h3>Book Your Slot</h3>
+          <form id="bookingForm">
+            <div class="form-row">
+              <div class="form-group">
+                <input type="text" id="booking-name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <input type="tel" id="booking-phone" placeholder="Phone Number" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="email" id="booking-email" placeholder="Email Address">
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <select id="booking-service">
+                  <option value="" disabled selected>Select Service</option>
+                  <option>Haircut & Styling</option>
+                  <option>Hair Coloring</option>
+                  <option>Hair Spa</option>
+                  <option>Keratin / Smoothening</option>
+                  <option>Facial</option>
+                  <option>Bridal Makeup</option>
+                  <option>Beard Styling</option>
+                  <option>Waxing</option>
+                  <option>Manicure / Pedicure</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <input type="date" id="booking-date">
+              </div>
+            </div>
+            <div class="form-group">
+              <textarea id="booking-notes" rows="3" placeholder="Any special requests..."></textarea>
+            </div>
+            <button type="submit" class="form-submit" id="booking-submit">
+              <i class="fas fa-calendar-check"></i> Confirm Booking
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo">Luxe<span>Salon</span></a>
+          <p>Experience luxury grooming and beauty services designed for both men and women.
+          Your confidence starts here.</p>
+          <div class="footer-social">
+            <a href="#" id="social-fb" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" id="social-ig" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" id="social-tw" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" id="social-yt" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#hero"><i class="fas fa-chevron-right"></i> Home</a></li>
+            <li><a href="#about"><i class="fas fa-chevron-right"></i> About Us</a></li>
+            <li><a href="#services"><i class="fas fa-chevron-right"></i> Services</a></li>
+            <li><a href="#gallery"><i class="fas fa-chevron-right"></i> Gallery</a></li>
+            <li><a href="#booking"><i class="fas fa-chevron-right"></i> Book Now</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services"><i class="fas fa-chevron-right"></i> Haircuts & Styling</a></li>
+            <li><a href="#services"><i class="fas fa-chevron-right"></i> Hair Coloring</a></li>
+            <li><a href="#services"><i class="fas fa-chevron-right"></i> Facials & Spa</a></li>
+            <li><a href="#services"><i class="fas fa-chevron-right"></i> Bridal Makeup</a></li>
+            <li><a href="#services"><i class="fas fa-chevron-right"></i> Grooming</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <div class="footer-contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>Your Salon Address,<br>City, State - 000000</p>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fas fa-phone-alt"></i>
+            <p>+91 XXXXX XXXXX</p>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fas fa-envelope"></i>
+            <p>hello@luxesalon.com</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 LuxeSalon. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ====== BACK TO TOP ====== -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- ====== JAVASCRIPT ====== -->
+  <script src="script.js"></script>
+</body>
+</html>
